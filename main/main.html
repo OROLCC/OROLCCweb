@@ -7,21 +7,51 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
 		<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" href="main.css">
 
 
 		<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 		<script src="http://cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="main-script.js"></script>
 	</head>
 
 	<body>
-		<div class="container" id="nav">
-			<div class="col-md-2"><h4>认识我们</h4></div>		
-			<div class="col-md-2"><h4>主日崇拜</h4></div>	
-			<div class="col-md-2"><h4>参加小组</h4></div>	
-			<div class="col-md-2"><h4>影音档案</h4></div>
-			<div class="col-md-2"><h4>奉献支持</h4></div>
-			<div class="col-md-2"><h4>联系我们</h4></div>
-
+		<nav class="navbar navbar-default fixed-top" id="navContainer">
+  			<div class="container-fluid" id="navhead">
+    			<div class="navbar-header" id="nav">
+					<div class="col-md-2 dropdown-toggle" data-toggle="dropdown"><a>认识我们</a></div>		
+					<div class="col-md-2"><a>主日崇拜</a></div>	
+					<div class="col-md-2">
+						<a>参加小组</a>
+						<ul id="worshipTime">
+							<li>
+								<a><i>周日上午</i></a>
+							</li>
+							<li>
+								<a><i>周日下午</i></a>
+							</li>
+						</ul>
+					</div>	
+					<div class="col-md-2"><a id="testing">影音档案</a></div>
+					<div class="col-md-2"><a>奉献支持</a></div>
+					<div class="col-md-2"><a>联系我们</a></div>
+				</div>
+			</div>
+		</nav>
+		<div>
+			<img class="background" src="../images/background/cross.jpg"/>
+		</div>
+		<div class="people">
+			<div class="flip"> 
+        <div class="card"> 
+            <div class="face front"> 
+                <img src="../images/People/joker.jpg" />
+            </div> 
+            <div class="face back"> 
+                <img src="../images/People/joker.jpg" />
+            </div> 
+        </div> 
+    </div> 
 		</div>
 	</body>
 </html>
