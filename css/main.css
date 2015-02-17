@@ -1,0 +1,143 @@
+body{
+  font-family: "Arial", "Microsoft YaHei";
+}
+
+#nav {
+  text-align:center;
+  font-size:16px;
+  background-color: #0C68F0; /*rgb(76,0,153);*/
+  height:50px;
+  width:100%;
+  padding:0px;
+}
+
+#navhead {
+  padding:0px;
+  width:100%;
+  position:fixed;
+}
+
+#nav div {
+  height:100%;
+  padding-top:1%;
+}
+
+#nav div a{ 
+  height:100%;
+  color: white;
+}
+
+#logo a{
+  font-size: 20px;
+}
+
+#nav div:hover{
+  background-color: #213350; /*rgb(153,51,255);*/
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.glyphicon-tint{
+  font-size: 20px;
+  color: white;
+}
+
+#navContainer {
+  margin-bottom:0px;
+}
+
+/*#background {
+  background-color: #000000;
+  filter:alpha(opacity=);
+  -moz-opacity:0.7;
+  opacity:0.7; 
+  -khtml-opacity: 0.7;
+}*/
+#background {
+width: 100%;
+height: 499px; /*responsive的时候各种问题= =*/
+background-image: 
+   linear-gradient(
+       rgba(15, 25, 155, 0.3),
+       rgba(15, 25, 155, 0.4)
+    ),
+   url("../images/background/gatineau.png");
+background-size: cover;
+}
+
+#slogan {
+  height: 499px;
+  position: absolute;
+  left: 0px;
+  top: 100px;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  background: 0 0;
+  padding: 12px 40px;
+  letter-spacing: .1em;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: rgb(10,10,10);
+}
+
+#worshipTime {
+  display:none;
+}
+
+/*#nav div:hover ul{
+  display:block;
+  background-color:(153,51,255);
+}*/
+
+/*#background {
+  width:100%;
+  height:100%;
+}*/
+
+
+.flip {
+    -webkit-perspective: 800;
+    position: relative;
+    margin: 50px auto;
+}
+.flip .card.flipped {
+    -webkit-transform: rotatey(-180deg);
+}
+.flip .card {
+    width: 100%;
+    height: 100%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: 0.5s;
+}
+.flip .card .face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-backface-visibility: hidden ;
+    z-index: 2;
+    font-size: 3em;
+    text-align: center;
+    line-height: 200px;
+}
+.flip .card .front {
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+}
+.flip .card .back {
+    -webkit-transform: rotatey(-180deg);
+    color: black;
+    cursor: pointer;
+}
