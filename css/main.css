@@ -1,5 +1,11 @@
 body{
   font-family: "Arial", "Microsoft YaHei";
+  color: ;
+}
+
+h2 {
+  font-weight: 900;
+  letter-spacing: .1em;
 }
 
 #nav {
@@ -55,6 +61,7 @@ a:hover{
   opacity:0.7; 
   -khtml-opacity: 0.7;
 }*/
+
 #background {
 width: 100%;
 height: 499px; /*responsive的时候各种问题= =*/
@@ -77,19 +84,44 @@ background-size: cover;
 }
 
 .button {
-  border: 2px solid #fff;
-  border-radius: 5px;
-  color: #fff;
-  background: 0 0;
+  border-radius: 3px;
   padding: 12px 40px;
   letter-spacing: .1em;
   font-size: 20px;
+}
+
+#background .button {
+  border: 2px solid #fff;
+  color: #fff;
+  background: 0 0;
   margin-top: 15px;
 }
 
 .button:hover {
   background-color: #fff;
   color: rgb(10,10,10);
+}
+
+
+#intro {
+  margin-top:80px;
+  text-align: center;
+}
+
+#intro span {
+  width: 100px;
+  height: 2px;
+  background: #000;
+  display: inline-block;
+  opacity: .3;
+}
+
+#intro .button {
+  border: 2px solid #213350;
+  border-radius: 3px;
+  color: #fff;
+  background-color: #213350;
+  margin-top: 25px;
 }
 
 #worshipTime {
