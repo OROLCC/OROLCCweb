@@ -12,20 +12,15 @@ h2 {
   text-align:center;
   font-size:16px;
   background-color: #0C68F0; /*rgb(76,0,153);*/
-  height:50px;
+  height:60px;
   width:100%;
   padding:0px;
-}
-
-#navhead {
-  padding:0px;
-  width:100%;
-  position:fixed;
+  border-color: #0C68F0;
 }
 
 #nav div {
   height:100%;
-  padding-top:1%;
+  padding-top:1.5%;
 }
 
 #nav div a{ 
@@ -117,11 +112,14 @@ background-size: cover;
 }
 
 #intro .button {
-  border: 2px solid #213350;
   border-radius: 3px;
   color: #fff;
-  background-color: #213350;
+  background-color: #ff6400; 
   margin-top: 25px;
+}
+
+#intro .button:hover {
+  background-color: #213350;
 }
 
 #worshipTime {
