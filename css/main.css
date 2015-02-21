@@ -1,6 +1,5 @@
 body{
   font-family: "Arial", "Microsoft YaHei";
-  color: ;
 }
 
 h2 {
@@ -15,7 +14,8 @@ h2 {
   height:60px;
   width:100%;
   padding:0px;
-  border-color: #0C68F0;
+  border: none;
+  /*opacity: 0.7;*/
 }
 
 #nav div {
@@ -45,10 +45,6 @@ a:hover{
   color: white;
 }
 
-#navContainer {
-  margin-bottom:0px;
-}
-
 /*#background {
   background-color: #000000;
   filter:alpha(opacity=);
@@ -58,15 +54,15 @@ a:hover{
 }*/
 
 #background {
-width: 100%;
-height: 499px; /*responsive的时候各种问题= =*/
-background-image: 
+  width: 100%;
+  height: 499px; /*responsive的时候各种问题= =*/
+  background-image: 
    linear-gradient(
        rgba(15, 25, 155, 0.3),
        rgba(15, 25, 155, 0.4)
     ),
    url("../images/background/gatineau.png");
-background-size: cover;
+  background-size: cover;
 }
 
 #slogan {
@@ -101,9 +97,10 @@ background-size: cover;
 #intro {
   margin-top:80px;
   text-align: center;
+  color: rgb(55,55,55);
 }
 
-#intro span {
+.separator {
   width: 100px;
   height: 2px;
   background: #000;
@@ -114,27 +111,56 @@ background-size: cover;
 #intro .button {
   border-radius: 3px;
   color: #fff;
-  background-color: #ff6400; 
-  margin-top: 25px;
+  background-color: #213350; 
+  margin-top: 40px;
 }
 
 #intro .button:hover {
-  background-color: #213350;
+  background-color: #ff6400;
 }
 
 #worshipTime {
   display:none;
 }
 
-/*#nav div:hover ul{
-  display:block;
-  background-color:(153,51,255);
-}*/
+#flock {
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  background-image:
+    linear-gradient(
+       rgba(15, 15, 15, 0.5),
+       rgba(15, 15, 15, 0.5)
+    ),
+   url("../images/background/church.jpg");
+  background-size: cover;
+}
 
-/*#background {
-  width:100%;
-  height:100%;
-}*/
+#sloganFlock {
+  margin-top: 4%;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  border: 5px solid #fff;
+}
+
+#service {
+  color: rgb(55,55,55);
+  text-align: center;
+  margin-top: 80px;
+}
+
+#service .button {
+  border-radius: 3px;
+  color: #fff;
+  background-color: #213350;
+  margin-top:40px;
+}
+
+#service .button:hover {
+  background-color: #ff6400;
+}
+
 
 
 .flip {
