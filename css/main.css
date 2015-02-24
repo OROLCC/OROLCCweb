@@ -1,11 +1,12 @@
 body{
-  font-family: "Arial", "Microsoft YaHei";
+  font-family: "Raleway", "Microsoft YaHei";
 }
 
 h2 {
   font-weight: 900;
   letter-spacing: .1em;
 }
+
 
 #nav {
   text-align:center;
@@ -56,6 +57,7 @@ a:hover{
 #background {
   width: 100%;
   height: 499px; /*responsive的时候各种问题= =*/
+  margin-top: 60px;
   background-image: 
    linear-gradient(
        rgba(15, 25, 155, 0.3),
@@ -69,7 +71,7 @@ a:hover{
   height: 499px;
   position: absolute;
   left: 0px;
-  top: 100px;
+  top: 160px;
   text-align: center;
   color: white;
 }
@@ -88,7 +90,7 @@ a:hover{
   margin-top: 15px;
 }
 
-.button:hover {
+#background .button:hover {
   background-color: #fff;
   color: rgb(10,10,10);
 }
@@ -97,7 +99,7 @@ a:hover{
 #intro {
   margin-top:80px;
   text-align: center;
-  color: rgb(55,55,55);
+  color: #262626;
 }
 
 .separator {
@@ -126,7 +128,7 @@ a:hover{
 #flock {
   width: 100%;
   height: 400px;
-  margin-top: 80px;
+  margin-top: 100px;
   background-image:
     linear-gradient(
        rgba(15, 15, 15, 0.5),
@@ -145,7 +147,7 @@ a:hover{
 }
 
 #service {
-  color: rgb(55,55,55);
+  color: #262626;
   text-align: center;
   margin-top: 80px;
 }
@@ -161,7 +163,113 @@ a:hover{
   background-color: #ff6400;
 }
 
+#bible {
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+  background-image:
+    linear-gradient(
+      rgba(15, 15, 15, 0.5),
+      rgba(15, 15, 15, 0.5)
+    ),
+    url("../images/background/bible.jpg");
+  background-size: cover;
+}
 
+#sloganBible {
+  color: #fff;
+  text-align: center;
+  margin-top: 10%;
+  letter-spacing: .1em;
+}
+
+#bible .button {
+  color: #fff;
+  text-align:center;
+  border: 1px solid #fff;
+  background: 0 0;
+  margin-top: 20px;
+}
+
+#bible .button:hover {
+  background-color: #fff;
+  color: rgb(10,10,10);
+}
+
+#hotline {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+#hotline .button {
+  border-radius: 3px;
+  color: #fff;
+  background-color: #213350;
+  margin-top:40px;
+}
+
+#hotline .button:hover {
+  background-color: #ff6400;
+}
+
+#hand {
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+  background-image:
+    linear-gradient(
+      rgba(15, 15, 15, 0.5),
+      rgba(15, 15, 15, 0.5)
+    ),
+    url("../images/background/hand.jpg");
+  background-size: cover;
+}
+
+#sloganGroup {
+  color: #fff;
+  text-align: center;
+  margin-top: 8%;
+  letter-spacing: .1em;
+}
+
+#groups {
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+.group {
+  height: 250px;
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: #fff;
+  border: 1px solid #252525;
+}
+
+.group h3 {
+  margin-top: 10%;
+}
+
+#tree {
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+  background-image:
+    linear-gradient(
+      rgba(15, 15, 15, 0.3),
+      rgba(15, 15, 15, 0.3)
+    ),
+    url("../images/background/tree.jpg");
+  background-size: cover;
+}
+
+#contact {
+  color: #fff;
+  text-align: left;
+  margin-top: 8%;
+  letter-spacing: .1em;
+}
 
 .flip {
     -webkit-perspective: 800;
